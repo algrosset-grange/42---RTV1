@@ -1,0 +1,102 @@
+{
+    "scene" : {
+        "width": 1000,
+        "height": 1000,
+        "origin": {
+            "x": 0.0,
+            "y": 50.0,
+            "z": -250.0},
+        "look_at": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0},
+
+        "material": {
+            "color": {
+                "r": 0,
+                "g": 0,
+                "b": 255}},
+
+        "material": {
+            "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255 }},
+
+        "material": {
+            "color": {
+                "r": 255,
+                "g": 0,
+                "b": 255}},
+
+        "material": {
+            "color": {
+                "r": 255,
+                "g": 255,
+                "b": 0}},
+
+        "sphere" : {
+            "num_material": 0,
+            "radius": 441.0,
+            "origin": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0 }},
+
+        "plane" : {
+            "num_material": 1,
+            "origin": {
+                "x": 0.0,
+                "y": -21.0,
+                "z": 0.0 },
+            "direction": {
+                "x": 0.0,
+                "y": -1.0,
+                "z": 0.0}},
+
+        "plane" : {
+            "num_material": 1,
+            "origin": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 200.0 },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0}},
+
+        "cylinder" : {
+            "num_material": 2,
+            "radius": 100.0,
+            "origin": {
+                "x": -42.0,
+                "y": 0.0,
+                "z": 0.0 },
+            "direction": {
+                "x": -0.25,
+                "y": 1.0,
+                "z": 0.0}},
+
+        "cone" : {
+            "num_material": 3,
+            "radius": 5.0,
+            "origin": {
+                "x": 42.0,
+                "y": 21.0,
+                "z": 0.0 },
+            "direction": {
+                "x": 0.25,
+                "y": 1.0,
+                "z": 0.0}},
+
+        "light" : {
+            "origin" : {
+                "x": 150.0,
+                "y": 150.0,
+                "z": -250.0},
+            "color" : {
+                "r": 255,
+                "g": 255,
+                "b": 255}},
+    }
+}

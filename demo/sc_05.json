@@ -1,0 +1,60 @@
+{
+    "scene" : {
+        "width": 1000,
+        "height": 1000,
+        "origin": {
+            "x": 0.0,
+            "y": -150.0,
+            "z": -250.0},
+        "look_at": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0},
+
+        "material": {
+            "color": {
+                "r": 0,
+                "g": 0,
+                "b": 255}},
+
+        "material": {
+            "color": {
+                "r": 255,
+                "g": 0,
+                "b": 0}},
+
+        "sphere" : {
+            "num_material": 0,
+            "radius": 2.0,
+            "origin": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0 },
+            "translation": {
+                "x": -2.0,
+                "y": 2.0,
+                "z": 0.0 }},
+
+         "sphere" : {
+            "num_material": 1,
+            "radius": 2.0,
+            "origin": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0 },
+            "translation": {
+                "x": 2.0,
+                "y": 2.0,
+                "z": 0.0 }},
+
+        "light" : {
+            "origin" : {
+                "x": 150.0,
+                "y": 150.0,
+                "z": -250.0},
+            "color" : {
+                "r": 255,
+                "g": 255,
+                "b": 255}},
+    }
+}
